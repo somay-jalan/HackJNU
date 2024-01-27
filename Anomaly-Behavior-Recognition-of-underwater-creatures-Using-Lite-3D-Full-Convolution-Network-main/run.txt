@@ -1,0 +1,9 @@
+python train.py --batch 32 --epoch 50 --images dataset/mix_fishaction_screen_v04/ --nclass 7 --output mix_fars_v04_result/ --color True --skip False --depth 10 --dataset mix_fishaction_screen_v04 --model lite3d --loss cross --iter 0
+python train.py --batch 32 --epoch 50 --images dataset/mix_fishaction_screen_v04/ --nclass 7 --output mix_fars_v04_result/ --color True --skip False --depth 10 --dataset mix_fishaction_screen_v04 --model lite3d --loss focal --iter 0
+
+
+python category_cluster_vision.py --images dataset/mix_fishaction_screen_v04/ --nclass 7 --modelPath mix_fars_v04_result/ --color True --skip False --depth 10 --dataset mix_fishaction_screen_v04 --model lite3d --iter 0 --layer conv3d_2 --dim 3
+
+
+python train.py  --output mix_fars_v04_result/ --loss focal
+python train.py  --output mix_fars_v04_result/

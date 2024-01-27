@@ -1,0 +1,2 @@
+model_checkpoint_path: "mix_fishaction_screen_v04_lite3d_cross_ar.hd5"
+all_model_checkpoint_paths: "mix_fishaction_screen_v04_lite3d_cross_ar.hd5"

@@ -1,0 +1,7 @@
+tilapia_normal
+cobia_normal
+cobia_lifeless
+tilapia_cartwheeling
+tilapia_side_swim
+tilapia_grinding
+cobia_anomaly

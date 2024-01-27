@@ -1,0 +1,10 @@
+navy
+turquoise
+darkorange
+cornflowerblue
+teal
+red
+blue
+green
+yellow
+purple

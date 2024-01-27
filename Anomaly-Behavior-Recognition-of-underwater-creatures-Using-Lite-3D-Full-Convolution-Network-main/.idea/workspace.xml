@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b0013ca5-1e4f-412b-8421-819030dc4d8d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="2Q8hmGPQh1PnuN95LIlEjqn6s1C" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b0013ca5-1e4f-412b-8421-819030dc4d8d" name="Default Changelist" comment="" />
+      <created>1684741273009</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684741273009</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2222" y="293" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1684743643558">
+      <screen x="1680" y="-27" width="1920" height="1040" />
+    </state>
+    <state x="2222" y="293" key="#com.intellij.fileTypes.FileTypeChooser/1680.-27.1920.1040/0.0.1680.1010@1680.-27.1920.1040" timestamp="1684743643558" />
+    <state x="2420" y="248" key="FileChooserDialogImpl" timestamp="1684743104830">
+      <screen x="1680" y="-27" width="1920" height="1040" />
+    </state>
+    <state x="2420" y="248" key="FileChooserDialogImpl/1680.-27.1920.1040/0.0.1680.1010@1680.-27.1920.1040" timestamp="1684743104830" />
+    <state x="2141" y="137" key="SettingsEditor" timestamp="1684742944606">
+      <screen x="1680" y="-27" width="1920" height="1040" />
+    </state>
+    <state x="2141" y="137" key="SettingsEditor/1680.-27.1920.1040/0.0.1680.1010@1680.-27.1920.1040" timestamp="1684742944606" />
+  </component>
+</project>
