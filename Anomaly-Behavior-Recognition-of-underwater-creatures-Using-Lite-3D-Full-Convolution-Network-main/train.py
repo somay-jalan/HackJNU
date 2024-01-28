@@ -6,6 +6,7 @@ import numpy as np
 from sklearn.model_selection import train_test_split
 import imgto3d
 from  tensorflow.keras.callbacks import ModelCheckpoint
+from  tensorflow.keras.models import load_model
 ##
 import tensorflow as tf
 from tensorflow.compat.v1.keras.backend import set_session
@@ -95,7 +96,7 @@ def main():
     with open(os.path.join(output, f'{data_set}_{args.model}_{args.loss}_ar.json'), 'w') as json_file:
         json_file.write(model_json)
     model.save_weights(os.path.join(output, f'{data_set}_{args.model}_{args.loss}_ar.hd5'))
-    # model.save(os.path.join(output, f'{data_set}_{args.model}_{args.loss}_ar.hd5'))
+    model.save('save_model_ar.hd5')
 
     loss, accuracy = model.evaluate(X_test, Y_test, verbose=0)
     print('Test loss:', loss)
@@ -105,6 +106,8 @@ def main():
     srp.saveAllReportandPlot(model, X_test, Y_test, y, output)
     # _ = [os.remove(f"./{x}") for x in os.listdir("./") if x.endswith(".hd5")]
 
+
+# def chechImage():
 
 if __name__ == '__main__':
     main()
