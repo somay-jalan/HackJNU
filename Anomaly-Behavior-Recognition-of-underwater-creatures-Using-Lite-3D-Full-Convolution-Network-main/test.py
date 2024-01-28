@@ -52,9 +52,10 @@ def checkFrames():
     x,y=dp.loaddata("testImage",img3d,7,"result/",False,True)
     X, Y = dp.dataPreprocess(x, y, img_rows, img_cols, frames, 1, 7)
     predictions=loaded_model.predict(X)
-    print(predictions)
+    # print(predictions)
     classes = np.argmax(predictions, axis=1)
-    print(classes)
+    if classes==[1]:
+        print("Cobia_anomaly")
 # print(loaded_model.evaluate(X,Y,verbose=0))
 
 makeFrames()
